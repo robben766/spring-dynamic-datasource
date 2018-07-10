@@ -23,7 +23,7 @@ public class DBConfig {
     @Bean
     public DataSource dataSource(){
         DruidDataSource dataSource = new DruidDataSource();
-        dataSource.setUrl("jdbc:mysql://localhost:3306/gupao");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/robben");
         dataSource.setUsername("root");
         dataSource.setPassword("root");
         return dataSource;
@@ -32,7 +32,7 @@ public class DBConfig {
     @Bean
     public DataSource dataSource2(){
         DruidDataSource dataSource = new DruidDataSource();
-        dataSource.setUrl("jdbc:mysql://localhost:3306/gupao2");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/robben2");
         dataSource.setUsername("root");
         dataSource.setPassword("root");
         return dataSource;
